@@ -1,5 +1,5 @@
 .sidebar {
-    display: none;
+
 }
 
 .sidebar.open {
@@ -16,7 +16,7 @@
 }
 
 .background {
-
+    background-color: rgba(101, 96, 96, 0.03);
 }
 
 .nav {
@@ -39,7 +39,7 @@
 
 .nav a.active {
     text-decoration-line: underline;
-    color: #0059B2;
+    color: #07427c;
 }
 .close {
     background: inherit;
