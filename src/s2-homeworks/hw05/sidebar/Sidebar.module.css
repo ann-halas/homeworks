@@ -1,25 +1,56 @@
 .sidebar {
+    display: none;
 }
 
 .sidebar.open {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 320px;
+    background: white;
+    flex-direction: column;
+    z-index: 5;
+    box-sizing: border-box;
 }
 
 .background {
+
 }
 
 .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav a {
+    font-size: 22px;
+    line-height: 27px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 25px;
 }
 
 .nav a:hover {
+    color: #58ACFF;
 }
 
 .nav a.active {
+    text-decoration-line: underline;
+    color: #0059B2;
 }
 .close {
+    background: inherit;
+    text-align: right;
+    border: none;
+    margin-top: 16px;
+    margin-right: 24px;
+
 }
 
 .close img {
+    width: 24px;
+    height: 24px;
 }

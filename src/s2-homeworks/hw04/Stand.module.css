@@ -1,7 +1,8 @@
 .stand {
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .inputs {
@@ -14,6 +15,8 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    align-items: flex-start;
+    width: 170px;
 }
 
 .checkboxes {

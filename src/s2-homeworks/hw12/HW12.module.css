@@ -19,5 +19,12 @@ html {
 }
 
 .select {
-
+    width: 160px;
+    height: 36px;
+    color: var(--color);
+    background-color: var(--background);
+}
+.text {
+    font-size: 14px;
+    margin-bottom: 5px;
 }

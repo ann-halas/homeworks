@@ -1,14 +1,29 @@
 .buttonsContainer {
+   margin: 20px 0 20px 0;
 }
 
+.buttonsContainer button {
+    margin: 0 10px;
+    width: 85px;
+}
+
+
 .clock {
+
 }
 
 .watch {
+    font-size: 20px;
+    padding: 10px 10px 0 10px;
 }
 
 .watch strong {
+    font-weight: bold;
 }
 
 .more {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
 }
