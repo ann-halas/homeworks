@@ -20,4 +20,4 @@ export const themeReducer = (state = initState, action: ChangeThemeIdType): Stat
     }
 }
 
-export const changeThemeId = (id: number): any => ({ type: 'SET_THEME_ID', id }) // fix any
+export const changeThemeId = (id: number): ChangeThemeIdType => ({ type: 'SET_THEME_ID', id }) // fix any

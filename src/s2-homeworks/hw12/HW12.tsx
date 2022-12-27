@@ -25,8 +25,8 @@ const HW12 = () => {
     const dispatch = useDispatch()
 
 
-    const change = (value: string) => { // дописать функцию
-        const theme = themes.find(t => t.value === value);
+    const change = (value: number) => { // дописать функцию
+        const theme = themes.find(t => t.id === value);
         if (theme) {
             dispatch(changeThemeId(theme.id))
         }
